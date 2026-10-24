@@ -3,7 +3,7 @@ id: "50380d27-9af5-4307-b9fc-cae7782b1ca1"
 name: "outline-report"
 display_name: "Outline Report"
 description: "Produces a structured section outline for a report from the brief"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-11T20:07:26.561Z"
+  scanned_at: "2026-10-24T15:30:51.388Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

@@ -4,6 +4,11 @@ id: outline-report
 title: "Report Outline"
 description: "Produces a structured section outline for a report from the brief"
 tags: [Production, Academic, Writing]
+context_params:
+  brief:
+    label: "Report Brief"
+    description: "The report brief to plan from — topic, research questions, and methodology."
+    required: true
 metadata:
   output_format: markdown
   prompt_type: task
@@ -19,7 +24,7 @@ You are an academic editor planning a report. Using the brief below, produce a c
 
 ### Report Brief
 
-{{steps.previous.output}}
+{{step.context.brief}}
 
 ### Instructions
 
